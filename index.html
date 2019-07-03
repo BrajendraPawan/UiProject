@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="TipCalc.js"></script>
+  <title>TipCalc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body id="b">
+  <div class="Containers">
+  <div class="flex-container">
+    <div class="header">
+      <Center>Tip Calculator</Center>
+    </div>
+    <div>
+    <form id="frm">
+      <label class="bill">How much was your bill?</label>
+      <div class="bill">
+        <big>$</big> <input type="number" class="form-control" placeholder="Bill Amount" required id="bill">
+      </div>
+
+      <div class="dropdown">
+        <label class="dropdown">How was Your service</label><br>
+        <select id="serviceId" required >
+          <option value="">-- Choose An Option --</option>
+          <option value="30">30% - Outstanding</option>
+          <option value="20">20% - Good</option>
+          <option value="15">15% - It was Ok</option>
+          <option value="10">10% - Bad</option>
+          <option value="5">5% - Terrible</option>
+        </select>
+      </div>
+      <label class="people">How many people are sharing this bill?</label>
+      <div class="people">
+        <input type="number" class="form-control" placeholder="Number Of People" required id="people">   people
+      </div>
+      <button id="btn" type="button"  class="btn btn-default" onclick="calculate()">CALCULATE</button>
+	  <div id="resultId">
+     </div>
+	  
+    </form>
+	
+    <div class="footer">
+      <img class="fic" src="C:\Users\brajendrakumarpawan\Desktop\UiTask\fico.jpg">
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
