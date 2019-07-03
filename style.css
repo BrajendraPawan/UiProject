@@ -1,0 +1,75 @@
+.Containers {
+  height: 900px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 500px;
+  border-radius: 10px;
+  margin-top: 80px;
+  
+}
+
+#btn {
+  background-color: darkred;
+  margin-top: 10px;
+  margin-left: 95px;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  
+}
+
+.bill {
+  width: 190px;
+  margin-left: 18px;
+  margin-top: 10px;
+  font-size: small;
+  display: flex;
+}
+
+.people {
+  width: 210px;
+  margin-left: 30px;
+  margin-top: 10px;
+  display: inline-flex;
+}
+
+.dropdown {
+  margin-left: 15px;
+  margin-top: 8px;
+}
+.footer {
+  width: 100%;
+  background-color: cadetblue;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.fic{
+  height: 60px;
+  width: 70px;
+  margin-left: 230px;
+  border-radius: 8px;
+}
+#resultid{
+	text-align:center;
+	font-size:40px;
+  margin-left: 20px;
+	
+}
+#b{
+	  background-color: darkred;
+}
+#serviceId{
+  margin-left: 10px;
+}
+
